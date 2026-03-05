@@ -562,6 +562,13 @@
 
 import { useState, useEffect, useRef } from "react";
 import blogImg from "../src/assets/blog.jpg";
+import comm from "../src/assets/comm3.jpg"
+import hackathon from "../src/assets/hackathon.jpg"
+import workshop from "../src/assets/workshop.jpg"
+import sheinnovates from "../src/assets/she-innovate.jpg"
+import buildwithoyo from "../src/assets/buildwithoyo.jpg"
+import series from "../src/assets/series.jpg"
+
 
 const POSTS = [
   {
@@ -580,7 +587,7 @@ const POSTS = [
     category: "Innovation",
     title: "How Oyo's Students Are Redefining Africa's Tech Future",
     excerpt: "Inside the chapters, classrooms and co-working spaces where the next wave of African tech talent is being forged — one build at a time.",
-    image: blogImg,
+    image: series,
     author: "Talent Tribe",
     date: "Nov 28, 2025",
     readTime: "6 min read",
@@ -591,7 +598,7 @@ const POSTS = [
     category: "Community",
     title: "From Telegram to Real Impact: The Chapter Story",
     excerpt: "What started as a Telegram group has grown into a movement with chapters across Oyo State. Here's how local communities are driving global-level outcomes.",
-    image: blogImg,
+    image: hackathon,
     author: "Talent Tribe",
     date: "Nov 15, 2025",
     readTime: "5 min read",
@@ -602,7 +609,7 @@ const POSTS = [
     category: "Events",
     title: "Build With Oyo: A Recap of Our Biggest Hackathon Yet",
     excerpt: "Over 200 students, 48 hours, and countless breakthroughs. Here's everything that happened at Build With Oyo 2025.",
-    image: blogImg,
+    image: workshop,
     author: "Talent Tribe",
     date: "Oct 30, 2025",
     readTime: "7 min read",
@@ -613,7 +620,7 @@ const POSTS = [
     category: "Skills",
     title: "The Tech Stack Every Oyo Developer Should Know in 2026",
     excerpt: "Our mentors break down the tools, frameworks, and mindsets that will separate good developers from great ones in the coming year.",
-    image: blogImg,
+    image: sheinnovates,
     author: "Talent Tribe",
     date: "Oct 12, 2025",
     readTime: "8 min read",

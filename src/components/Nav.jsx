@@ -241,7 +241,7 @@ const Nav = ({ lightBackground = false }) => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'nav-blur py-3' : 'py-5 bg-transparent'
+      className={`fixed top-0 left-0 mb-20 right-0 z-50 transition-all duration-300 ${scrolled ? 'nav-blur py-3' : 'py-5 bg-transparent'
         }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">

@@ -807,7 +807,7 @@ const About = () => {
         }
       `}</style>
 
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto">
 
         {/* Header */}
         <div ref={headerRef} className="reveal-header text-center mb-20">
